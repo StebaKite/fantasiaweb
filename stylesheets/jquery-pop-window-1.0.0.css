@@ -1,0 +1,12 @@
+.PopWindowClearBoth {clear:both;}
+.PopWindowTsx {float:left; background:url(../../images/PopWindowTsx.png) no-repeat left bottom; width:15px; height:36px;}
+.PopWindowT {float:left; background: url(../../images/PopWindowTbkg.png) repeat-x left bottom; height:36px;}
+.PopWindowTdx {float:left; background:url(../../images/PopWindowTdx.png) no-repeat right bottom; width:75px; height:36px;}
+.PopWindowCsx {float:left; background:url(../../images/PopWindowCsx.png) repeat-y; width:10px;}
+.PopWindowC {float:left; background-color:#ffffff; overflow:auto;}
+.PopWindowCdx {float:left; background:url(../../images/PopWindowCdx.png) repeat-y; width:10px;}
+.PopWindowBsx {float:left; background:url(../../images/PopWindowBsx.png) no-repeat; width:15px; height:14px;}
+.PopWindowB {float:left; background: url(../../images/PopWindowBbkg.png) repeat-x left top; height:14px;}
+.PopWindowBdx {float:left; background:url(../../images/PopWindowBdx.png) no-repeat; width:15px; height:14px;}
+.PopWindow-btnDrag { margin:13px 4px 0 18px; float:left; cursor:move;}
+.PopWindow-btnX { padding-top:13px; float:left;}

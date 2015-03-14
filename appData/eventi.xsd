@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<!-- definition of simple elements -->
+<xs:element name="create" type="xs:date"/>
+<xs:element name="end" type="xs:date"/>
+<xs:element name="title" type="xs:string"/>
+<xs:element name="text" type="xs:string"/>
+
+<!-- definition of complex elements -->
+<xs:element name="evento">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="create"/>
+      <xs:element ref="end"/>
+      <xs:element ref="title"/>      
+      <xs:element ref="text"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="eventi">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="evento" maxOccurs="500"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+</xs:schema>

@@ -1,0 +1,736 @@
+body{
+	font-family: Trebuchet MS,Arial,Verdana,Sans-serif;	
+    /* For any browser that can't create a gradient  */
+    background-color: #e6e6e6;
+    /* mozilla */
+    background: -moz-linear-gradient(top, #e6e6e6, #a6a6a6);
+    /* Chrome / Safari     */
+    background: -webkit-gradient(linear, left top, left bottom, from(#e6e6e6), to(#a6a6a6));
+    /*IE 6/7 */
+     filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#e6e6e6',EndColorStr='#a6a6a6');
+    /*IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#e6e6e6, endColorstr=#a6a6a6)";
+}
+.bodyIframe{
+	font-family: Trebuchet MS,Arial,Verdana,Sans-serif;	
+    /* For any browser that can't create a gradient  */
+    background-color: #aac812;
+    /* mozilla */
+    background: -moz-linear-gradient(top, #d4e488, #aac812);
+    /* Chrome / Safari     */
+    background: -webkit-gradient(linear, left top, left bottom, from(#d4e488), to(#aac812));
+    /*IE 6/7 */
+     filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#d4e488',EndColorStr='#aac812');
+    /*IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#d4e488, endColorstr=#aac812)";
+}
+td {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    vertical-align: top;
+}
+img {
+    border: 0 none;
+}
+ul.list {
+    list-style-image: url("../images/list.gif");
+    margin: 0;
+    padding: 10px 0 10px 18px;
+    text-align: left;
+}
+ol {
+    margin: 0;
+    padding: 10px 0 10px 18px;
+    text-align: left;
+}
+ul.video {
+    font-weight: bold;
+    list-style-image: url("../images/listVideo.gif");
+    margin: 0 5px;
+    padding: 0;
+    text-align: left;
+}
+li {
+    padding-bottom: 5px;
+}
+a {
+    color: #494949;
+    text-decoration: none;
+}
+a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+.divon {
+    cursor: pointer;
+}
+/*
+input {
+    border: 1px solid #C6C6C6;
+    color: #494949;
+    font-size: 11px;
+    margin: 5px 0 0;
+    padding: 3px;
+}
+*/
+select {
+    border: 1px solid #C6C6C6;
+    color: #494949;
+    font-size: 11px;
+    margin: 5px 0 0;
+    padding: 3px;
+}
+textarea {
+    border: 1px solid #C6C6C6;
+    color: #494949;
+    font-family: Trebuchet MS,Arial,Verdana,Sans-serif;
+    font-size: 11px;
+    margin: 5px 0 0;
+    padding: 1px 0 1px 6px;
+}
+.radio {
+    border: medium none;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+.tform {
+    padding: 3px 15px 3px 0;
+    text-align: right;
+    white-space: nowrap;
+}
+.formT {
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: bold;
+    padding-left: 4px;
+}
+.formTx {
+    padding: 0 10px 0 4px;
+    text-align: left;
+    vertical-align: middle;
+    width: 150px;
+}
+.bold {
+    color: #000000;
+    font-weight: bold;
+}
+.data {
+    font-size: 10px;
+}
+.TNews {
+    color: #FF7E00;
+    font-size: 16px;
+    font-weight: bold;
+}
+.Nlist {
+    font-size: 11px;
+    padding: 0 20px 20px 0;
+    text-align: left;
+}
+.NlistOn {
+    background-color: #FFA600;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: left;
+}
+.TPlayer_h {
+    color: #CF0304;
+    font-weight: bold;
+    line-height: 14px;
+    padding: 18px 16px 3px;
+    text-align: center;
+}
+.TPlayer {
+    color: #CF0304;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 3px;
+    text-align: center;
+}
+.TPlayerSpot {
+    color: #FF7E00;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.Vlist {
+    font-size: 11px;
+    padding: 0 20px 0 0;
+    text-align: left;
+}
+.VlistOn {
+    background-color: #E30C10;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: left;
+}
+.pdf {
+    background: url("../images/Pdf.gif") no-repeat scroll left top transparent;
+    padding: 0 0 15px 20px;
+}
+.pdfsmall {
+    background: url("../images/Pdf.gif") no-repeat scroll left top transparent;
+    cursor: pointer;
+    font-style: italic;
+    font-weight: bold;
+    padding: 4px 0 12px 20px;
+}
+.TReg {
+    color: #4B575E;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+    text-align: left;
+}
+.TViag {
+    color: #69568E;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+    text-align: left;
+}
+.TSedi {
+    color: #00276F;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+    text-align: left;
+}
+.TCQ {
+    color: #D22024;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+    text-align: left;
+}
+.TCont {
+    color: #003706;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 18px;
+    text-align: left;
+}
+.TSubMod {
+    color: #4B575E;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 18px;
+    text-align: left;
+}
+.tableT {
+    background: url("../images/bkg_Oriz.gif") repeat-x scroll left bottom transparent;
+    font-size: 10px;
+    padding-bottom: 5px;
+}
+.tableI {
+    background: url("../images/bkg_Oriz.gif") repeat-x scroll left bottom transparent;
+    padding: 2px 0 3px;
+}
+.tableIr {
+    background: url("../images/bkg_Oriz.gif") repeat-x scroll left bottom transparent;
+    padding: 2px 0 3px;
+    text-align: right;
+    white-space: nowrap;
+}
+.size10 {
+    font-size: 10px;
+}
+.txt02 {
+    color: #8B8B8B;
+    font-size: 11px;
+}
+.tableT2 {
+    background: url("../images/bkg_Oriz.gif") repeat-x scroll left bottom transparent;
+    font-size: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+    width: 80px;
+}
+.tableI2 {
+    padding: 0 0 5px 4px;
+    white-space: nowrap;
+}
+.tableDis {
+    text-align: center;
+    vertical-align: middle;
+}
+.sponsor {
+    padding: 10px 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+.tableDis_alta {
+    background-color: #017B1B;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 11px;
+    height: 11px;
+    margin: 0;
+    padding: 1px;
+    text-align: center;
+    width: 18px;
+}
+.tableDis_bassa {
+    background-color: #FFC001;
+    border: 1px solid #FFFFFF;
+    color: #000000;
+    cursor: pointer;
+    font-size: 11px;
+    height: 11px;
+    margin: 0;
+    padding: 1px;
+    text-align: center;
+    width: 18px;
+}
+.tableDis_pieno {
+    background-color: #E90404;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 11px;
+    height: 11px;
+    margin: 0;
+    padding: 1px;
+    text-align: center;
+    width: 18px;
+}
+option.disponibile {
+    color: #494949;
+}
+option.pieno {
+    color: #E90404;
+}
+.tablecq {
+    background: url("../images/bkg_Oriz.gif") repeat-x scroll left bottom transparent;
+    color: #D22024;
+    font-weight: bold;
+    padding: 2px 0 3px;
+}
+.tables {
+    background: url("../images/bkg_Oriz.gif") repeat-x scroll left bottom transparent;
+    color: #0072BC;
+    font-weight: bold;
+    padding: 2px 0 3px;
+}
+.tableae {
+    background: url("../images/bkg_Oriz.gif") repeat-x scroll left bottom transparent;
+    color: #FF7300;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 0 3px;
+    text-align: left;
+    white-space: nowrap;
+}
+.tab {
+    background: url("../images/bkg_Oriz.gif") repeat-x scroll left bottom transparent;
+}
+.menuSapOff {
+    background: url("../images/ArrSaperOff.gif") no-repeat scroll left center transparent;
+    color: #F64D00;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 2px 0 3px 20px;
+}
+.menuSapOff a {
+    color: #F64D00;
+    text-decoration: none;
+}
+.menuSapOff a:hover {
+    color: #F64D00;
+    text-decoration: none;
+}
+.menuSapOn {
+    background: url("../images/ArrSaperOn.gif") no-repeat scroll left bottom #FB810A;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+    padding: 2px 0 3px 20px;
+}
+.menuSapOn a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.menuSapOn a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.menuSOff {
+    background: url("../images/ArrSediOff.gif") no-repeat scroll left center transparent;
+    color: #0072BC;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 2px 0 3px 20px;
+}
+.menuSOff a {
+    color: #0072BC;
+    text-decoration: none;
+}
+.menuSOff a:hover {
+    color: #0072BC;
+    text-decoration: none;
+}
+.menuSOn {
+    background: url("../images/ArrSediOn.gif") no-repeat scroll left bottom #0072BC;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+    padding: 2px 0 3px 20px;
+}
+.menuSOn a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.menuSOn a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.menuCalOff {
+    background: url("../images/ArrOff.png") no-repeat scroll left center #D22024;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: bold;
+    padding-left: 18px;
+}
+.menuCalOff a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.menuCalOff a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.menuCalOn {
+    background: url("../images/ArrOn.png") no-repeat scroll left bottom #D22024;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: bold;
+    padding-left: 18px;
+}
+.menuCalOn a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.menuCalOn a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.menuS {
+    background: url("../images/traS.gif") no-repeat scroll right bottom transparent;
+    padding: 20px 8px 0 5px;
+    vertical-align: middle;
+}
+.clearBoth {
+    clear: both;
+    height: 0;
+    width: 0;
+}
+.divContISc {
+    background: url("../images/divContIScT.gif") no-repeat scroll 0 0 transparent;
+    margin: 0 0 15px 10px;
+    padding-top: 15px;
+    width: 700px;
+}
+.divContIScIN {
+    background: url("../images/divContIScIn.gif") no-repeat scroll left bottom transparent;
+    padding: 0 20px 4px 4px;
+}
+.IS-listaCentri {
+    background: url("../images/listaCentri-bkg.png") no-repeat scroll right top transparent;
+    float: left;
+    height: 400px;
+    position: relative;
+    width: 330px;
+}
+.IS-listaC-off {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    margin-bottom: 2px;
+    padding: 2px 0 2px 12px;
+}
+.IS-listaC-on {
+    background: url("../images/IS-listaC-on.png") no-repeat scroll right top transparent;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    margin-bottom: 2px;
+    padding: 2px 0 2px 12px;
+}
+.IS-scelta {
+    background: url("../images/IS-sceltaI.gif") no-repeat scroll left bottom transparent;
+    bottom: 0;
+    margin: 30px 0 0 2px;
+    padding-bottom: 6px;
+    position: absolute;
+    width: 315px;
+}
+.IS-sceltaI {
+    background: url("../images/IS-sceltaT.gif") no-repeat scroll 0 0 #F1F3F4;
+    min-height: 110px;
+    padding: 10px 10px 0;
+}
+.scelta-SelC {
+    font-size: 20px;
+    font-weight: bold;
+}
+.scelta-Sel {
+    font-size: 15px;
+    font-weight: bold;
+}
+.IS-tabRaduni {
+    float: right;
+    height: 400px;
+    position: relative;
+    width: 340px;
+}
+.Raduno {
+    background: url("../images/IS-Raduno.png") no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 0 2px;
+    text-align: center;
+    width: 340px;
+}
+.Rintero-FREE {
+    background: url("../images/IS-R-intero.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    height: 43px;
+    margin-top: 1px;
+    width: 159px;
+}
+.Rintero-OVER {
+    background: url("../images/IS-R-intero.png") no-repeat scroll 0 0 #F1F3F4;
+    cursor: pointer;
+    height: 43px;
+    margin-top: 1px;
+    width: 159px;
+}
+.Rintero-ALERT {
+    background: url("../images/IS-R-intero.png") no-repeat scroll 0 0 #FFDE00;
+    cursor: pointer;
+    height: 43px;
+    margin-top: 1px;
+    width: 159px;
+}
+.Rintero-FULL {
+    background: url("../images/IS-R-intero.png") no-repeat scroll 0 0 #CF0000;
+    color: #FFFFFF;
+    height: 43px;
+    margin-top: 1px;
+    width: 159px;
+}
+.Rintero-SELCT {
+    background: url("../images/IS-R-intero.png") no-repeat scroll 0 0 #97B60E;
+    color: #FFFFFF;
+    height: 43px;
+    margin-top: 1px;
+    width: 159px;
+}
+.Rset-FREE {
+    background: url("../images/IS-R-2set.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    height: 43px;
+    margin-top: 1px;
+    width: 89px;
+}
+.Rset-OVER {
+    background: url("../images/IS-R-2set.png") no-repeat scroll 0 0 #F1F3F4;
+    cursor: pointer;
+    height: 43px;
+    margin-top: 1px;
+    width: 89px;
+}
+.Rset-ALERT {
+    background: url("../images/IS-R-2set.png") no-repeat scroll 0 0 #FFDE00;
+    cursor: pointer;
+    height: 43px;
+    margin-top: 1px;
+    width: 89px;
+}
+.Rset-FULL {
+    background: url("../images/IS-R-2set.png") no-repeat scroll 0 0 #CF0000;
+    color: #FFFFFF;
+    height: 43px;
+    margin-top: 1px;
+    width: 89px;
+}
+.Rset-SELCT {
+    background: url("../images/IS-R-2set.png") no-repeat scroll 0 0 #97B60E;
+    color: #FFFFFF;
+    height: 43px;
+    margin-top: 1px;
+    width: 89px;
+}
+.Rall-FREE {
+    background: url("../images/IS-R-all.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    height: 43px;
+    margin-top: 1px;
+    text-align: center;
+    width: 338px;
+}
+.Rall-OVER {
+    background: url("../images/IS-R-all.png") no-repeat scroll 0 0 #F1F3F4;
+    cursor: pointer;
+    height: 43px;
+    margin-top: 1px;
+    text-align: center;
+    width: 338px;
+}
+.Rall-ALERT {
+    background: url("../images/IS-R-all.png") no-repeat scroll 0 0 #FFDE00;
+    cursor: pointer;
+    height: 43px;
+    margin-top: 1px;
+    text-align: center;
+    width: 338px;
+}
+.Rall-FULL {
+    background: url("../images/IS-R-all.png") no-repeat scroll 0 0 #CF0000;
+    color: #FFFFFF;
+    height: 43px;
+    margin-top: 1px;
+    text-align: center;
+    width: 338px;
+}
+.Rall-SELCT {
+    background: url("../images/IS-R-all.png") no-repeat scroll 0 0 #97B60E;
+    color: #FFFFFF;
+    height: 43px;
+    margin-top: 1px;
+    text-align: center;
+    width: 338px;
+}
+.R-Txt {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px 14px 0;
+}
+.legenda {
+    bottom: 4px;
+    font-size: 10px;
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+}
+.l-leg {
+    float: left;
+    padding: 2px 4px;
+}
+.l-alert {
+    background-color: #FFDE00;
+    float: left;
+    margin-left: 5px;
+    padding: 1px 4px;
+}
+.l-full {
+    background-color: #CF0000;
+    color: #FFFFFF;
+    float: left;
+    margin-left: 5px;
+    padding: 1px 4px;
+}
+.l-scelta {
+    background-color: #97B60E;
+    color: #FFFFFF;
+    float: left;
+    margin-left: 5px;
+    padding: 1px 4px;
+}
+#overlay-bkg {
+    background: none repeat scroll 0 0 #000000;
+    height: 100%;
+    left: 0;
+    opacity: 0.75;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+}
+#overlay-content {
+    display: block;
+    height: 440px;
+    left: 50%;
+    margin: -225px 0 0 -293px;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    width: 586px;
+    z-index: 10001;
+}
+#close {
+    background: url("../images/close_btn_h.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    height: 35px;
+    left: 505px;
+    position: relative;
+    top: 20px;
+    width: 35px;
+    z-index: 100000;
+}
+.t_l {
+    background: url("../images/overlay/t_l.png") no-repeat scroll 0 0 transparent;
+    height: 20px;
+    width: 20px;
+}
+.t_r {
+    background: url("../images/overlay/t_r.png") no-repeat scroll 0 0 transparent;
+    height: 20px;
+    width: 20px;
+}
+.t_c {
+    background: url("../images/overlay/t_c.png") repeat-x scroll 0 0 transparent;
+    height: 20px;
+}
+.c_l {
+    background: url("../images/overlay/c_l.png") repeat-y scroll 0 0 transparent;
+    width: 20px;
+}
+.c_c {
+    background: none repeat scroll 0 0 white;
+    margin: 0;
+    padding: 0;
+}
+.c_r {
+    background: url("../images/overlay/c_r.png") repeat-y scroll 0 0 transparent;
+    width: 20px;
+}
+.b_c {
+    background: url("../images/overlay/b_c.png") repeat-x scroll 0 0 transparent;
+    height: 20px;
+}
+.b_l {
+    background: url("../images/overlay/b_l.png") no-repeat scroll 0 0 transparent;
+    height: 20px;
+    width: 20px;
+}
+.b_r {
+    background: url("../images/overlay/b_r.png") no-repeat scroll 0 0 transparent;
+    height: 20px;
+    width: 20px;
+}
+
+/* Regolamento page */	
+
+h4.regflip
+{ margin:0px; padding:10px; text-align:justify; background:#a5b0b4; border:solid 1px #77848a; visibility:visible;  }
+
+div.panel_art1, div.panel_art2, div.panel_art3, div.panel_art4, div.panel_art5, div.panel_art6, div.panel_art7
+{ margin:0px; padding:10px; text-align:justify; background:#a5b0b4; border:solid 1px #77848a; visibility:visible; }
+
+div.panel_art1 { height:180px; background:white; display:none; visibility:visible; opacity:0.6; filter:alpha(opacity=60); }
+div.panel_art2 { height:330px; background:white; display:none; visibility:visible; opacity:0.6; filter:alpha(opacity=60); }
+div.panel_art3 { height:200px; background:white; display:none; visibility:visible; opacity:0.6; filter:alpha(opacity=60); }
+div.panel_art4 { height:250px; background:white; display:none; visibility:visible; opacity:0.6; filter:alpha(opacity=60); }
+div.panel_art5 { height:230px; background:white; display:none; visibility:visible; opacity:0.6; filter:alpha(opacity=60); }
+div.panel_art6 { height:300px; background:white; display:none; visibility:visible; opacity:0.6; filter:alpha(opacity=60); }
+div.panel_art7 { height:60px;  background:white; display:none; visibility:visible; opacity:0.6; filter:alpha(opacity=60); }

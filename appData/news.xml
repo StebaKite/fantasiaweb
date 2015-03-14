@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../stylesheets/news.xsl"?>
+
+<news xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../appData/news.xsd">
+	<new>
+		<create>2014-02-15</create>
+		<end>2014-05-01</end>
+		<title>CENTRO ESTIVO 2014</title>
+		<text>
+			Anche quest'anno l'Associazione organizza l'ormai tradizionale Centro Estivo dal 16/6 al 1/8 compresi.
+			Stiamo prendendo i primi contatti con le Istituzioni Locali e con la scuola, appena avremo definito i dettagli ne daremo comunicazione
+			attraverso il sito web, facebook e bacheche pubbliche.
+		</text> 
+  	</new>
+	<new>
+		<create>2014-02-15</create>
+		<end>2014-05-01</end>
+		<title>ANIMATORI</title>
+		<text>
+			I ragazzi e le ragazze dai 15 anni in su che desiderano unirsi a noi per organizzare giochi e attività dovranno aspettare la pubblicazione dell'evento FB con relativo invito individuale.
+			Affrettati a diventare nostro amico su Facebook !!
+		</text> 
+  	</new>
+	<new>
+		<create>2013-07-27</create>
+		<end>2013-12-15</end>
+		<title>FESTA DI FINE CENTRO</title>
+		<text>
+			Alla festa di venerdì 2 agosto sono invitati tutti: partecipanti, genitori, amici. Dalle ore 16 staremo insieme e ci divertiremo un sacco!!
+			Sarà l'occasione per tutti di dirsi ciao, arrivederci e buone vacanze a quelli che partono...
+			Fai click nel riquadro "Il Tema dell'anno" per vedere la locandina della festa.
+		</text>
+  	</new>
+	<new>
+		<create>2013-06-12</create>
+		<end>2013-12-15</end>
+		<title>ISCRIZIONI A CENTRO ATTIVO</title>
+		<text>
+			Le iscrizioni per le settimane successive sono aperte al centro dal Lunedì al Mercoledì dalle ore 8-10.
+			Le iscrizioni per le gite a pagamento devono essere confermate entro il mercoledì della settimana precedente.
+			Le schede presenza per gli animatori sono nella sezione "Staff".
+		</text> 
+  	</new>
+	<new>
+		<create>2013-05-26</create>
+		<end>2013-12-05</end>
+		<title>OTTIMI I RISULTATI DELLE ISCRIZIONI</title>
+		<text>
+			Le due giornate di raccolta delle iscrizioni hanno dato ottimi risultati, GRAZIE!!
+			Le iscrizioni rimangono comunque aperte, per la consegna del modulo metteteVi in contatto con noi tramite mail o telefono.
+			Il quadro delle iscrizioni per periodo si trova nella sezione "Bacheca".
+		</text> 
+  	</new>
+	<new>
+		<create>2013-03-09</create>
+		<end>2013-12-05</end>
+		<title>CENTRO ESTIVO 2013</title>
+		<text>
+			Il Centro Estivo di 7 settimane partirà lunedì 17/6 e si concluderà venerdi 2/8. Alla Scuola Elementare di S. Maria Hoè.
+			Abbiamo fissato le date di raccolta delle iscrizioni, guarda nella sezione "Iscrizione".
+		</text> 
+  	</new>
+	<new>
+		<create>2013-03-01</create>
+		<end>2013-12-05</end>
+		<title>CENTRO ESTIVO 2013 DI 7 SETTIMANE</title>
+		<text>
+			Quest'anno il CdA dell'associazione ha deciso di aggiungere una settimana alle sei ormai tradizionali.
+			L'esame dei dati di affluenza raccolti negli scorsi anni ha evidenziato una presenza significativa nelle ultime 2 settimane di luglio.
+			Le settimane a mezza giornata ci saranno in concomitanza con gli gli oratori estivi, mentre le altre saranno piene.
+		</text> 
+  	</new>
+	<new>
+		<create>2013-02-28</create>
+		<end>2013-12-01</end>
+		<title>NUOVO SITO WEB</title>
+		<text>
+			Stiamo ridisegnando e allestendo completamente il sito web con l'intento di renderlo più facile e chiaro.
+			Ci sono ancora alcune pagine vuote che attendono di essere allestite, ci scusiamo. 
+		</text> 
+  	</new>
+</news>

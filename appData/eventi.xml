@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../stylesheets/eventi.xsl"?>
+
+<eventi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../appData/eventi.xsd">
+
+	<evento>
+		<create>2013-03-23</create>
+		<end>2013-05-08</end>
+		<title>PRIMO RITROVO PER ANIMATORI CENTRO ESTIVO 2013</title>
+		<text>
+			Il primo ritrovo per gli animatori si terrà il giorno 8/5/2013 alle ore 20.30 presso la Sala Consigliare del Comune di S.Maria Hoè 
+			Questo incontro sarà preliminare a tutto il lavoro di preparazione. Accoglieremo i nuovi e raccoglieremo le disponibilità di ciascuno.
+			Portare una fotocopia della carta d'identità valida, per i maggiorenni anche una fotocopia del codice fiscale.
+		</text> 
+  	</evento>
+</eventi>

@@ -1,0 +1,32 @@
+
+/* Main chart area in which all other chart elements are contained. */
+.chartArea {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background:white;
+	border:1px solid black;
+}
+/* The chart title text */
+.chartTitle {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+}
+/* The plot area in which the columns and grid lines are contained. */
+.chartArea .plotArea {
+	background:#BAE8FB;
+}
+/* The grid lines */
+.chartArea .plotArea .gridContainer .gridLine {
+	color:gray;
+}
+/* The legend item */
+.legend .item {
+	font-size:11px;
+}
+/* The area for the debug messages below the chart area */
+.debugPane {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:red;
+}
