@@ -1,0 +1,105 @@
+<html>
+<head>
+  <style>
+    .txtbox {
+       border: none;
+       width: 100%;
+    }
+    .chkBox {
+       border: none;
+       width: 80;
+    }
+    input {
+      font-size: 17px;
+      height: 30px;
+    }
+    table {
+      background: none repeat scroll 0 0 #abcdef;
+      border: 1px solid #000;
+    }
+  </style>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script>
+	
+  $(document).ready(function(){
+       $('.plusbtn').click(function() {
+         var p1 = '<tr><td>';
+	 var p2 = $("#servizio").val();
+         var p3 = '</td><td align="center"><input type="checkbox" class="chkBox" checked></td></tr>'; 
+	 var row = p1.concat(p2, p3);
+
+         if (p2 != "") {
+           $(".test").append(row);
+         }
+       });		
+     $('.minusbtn').click(function() {
+         if($(".test tr").length > 0)
+         {
+           $(".test tr:last-child").remove();
+         }
+      });
+    });
+
+  </script>
+
+  <script>
+
+    var servizi= [];
+    var str3 = "<input type='text' size='100' name='serviziAggiunti' id='serviziAggiunti' value='";
+
+    function addEle() {
+
+      $(".test").find('tr').each(function (i, el) {
+          var $tds = $(this).find('td');
+
+          servizio = $tds.eq(0).text();
+          var codsrv = servizio.split(" - "); 
+
+          adesione = $tds.eq(1).find('input:checkbox').prop('checked');
+
+          if (adesione == true) {
+            var ade = '1';
+          }
+          else {
+            var ade = '0';
+          }
+
+          var valore = codsrv[0].concat("_",ade);
+          servizi.push(valore);
+      });
+
+      var inpHidden = str3.concat(servizi,"'/>");
+      $("#serviziAggiunti").html(inpHidden);
+    }
+
+  </script>
+
+</head>
+<body>
+<h2>Configurazione Servizi</h2>
+<div>
+  <p id="serviziAggiunti"></p>
+</div>
+<br>
+<div>
+  <span class="IL_AD" id="IL_AD9">
+
+     <select name="servizio" id="servizio">
+       <option value="" selected>Selezionare...</option>
+       <option value="SV01 - aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa">SV01 - aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</option>
+       <option value="SV02 - bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb">SV02 - bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</option>
+       <option value="SV03 - cccccccccccccccccccccccccccccccccccccccc">SV03 - cccccccccccccccccccccccccccccccccccccccc</option>
+       <option value="SV04 - xxxxxxxxxxxxxxxxxxxxxx">SV04 - xxxxxxxxxxxxxxxxxxxxxx</option>
+     </select> 
+
+     <input type="button" value="Add" class="plusbtn" />
+     <input type="button" value="Remove" class="minusbtn" />
+  </span>
+</div>
+<br>
+<table border="1" cellpadding="1" cellspacing="1" class="test"></table>
+<br>
+<input type="button" value="Salva" onClick="addEle()" />
+
+</body
+</html>
